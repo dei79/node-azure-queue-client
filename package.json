@@ -3,7 +3,7 @@
   "description": "An azure queue client for node.js which allows to consume jobs",
   "version": "0.0.1",
   "author": "Dirk Eisenberg",
-  "main": ["./lib/azure-queue.js","./lib/azure-queue-listener.js"],
+  "main": "./lib/azure-queue-client.js",
   "dependencies": {
     "q": "^2.0.2",
     "azure-storage": "^0.3.2"
