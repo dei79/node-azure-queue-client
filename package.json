@@ -8,5 +8,22 @@
     "q": "^2.0.2",
     "azure-storage": "^0.3.2"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dei79/node-azure-queue-client.git"
+  },
+  "keywords": [
+    "azure",
+    "queue",
+    "node"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dei79/node-azure-queue-client/issues"
+  },
+  "homepage": "https://github.com/dei79/node-azure-queue-client"
 }
