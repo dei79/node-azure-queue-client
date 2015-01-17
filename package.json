@@ -1,5 +1,5 @@
 {
-  "name": "azurequeueclient",
+  "name": "azure-queue-client",
   "description": "An azure queue client for node.js which allows to consume jobs",
   "version": "0.0.1",
   "author": "Dirk Eisenberg",
