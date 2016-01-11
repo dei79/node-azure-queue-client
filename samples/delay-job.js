@@ -21,8 +21,8 @@ queueListener.onMessage(function(message) {
     var exponentialRetryPolicy = new azureQueueClient.AzureQueueDelayedJobPolicies.ExponentialDelayPolicy(1, 5);
 
     // delay the job
-    console.log("Job was delayed " + exponentialRetryPolicy.count(message) + " times");
-    console.log("Delaying the job by " + exponentialRetryPolicy.nextTimeout(message) + " seconds");
+    console.log("Job was delayed " + exponentialRetryPolicy.count(message, queueListener) + " times");
+    console.log("Delaying the job by " + exponentialRetryPolicy.nextTimeout(message, queueListener) + " seconds");
     return queueListener.delay(message, exponentialRetryPolicy);
 });
 
