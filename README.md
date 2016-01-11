@@ -9,6 +9,12 @@ when a job comes into the queue it will be processed. The most important feature
 * support for wrapped xml from Azure Scheduler
 * listening on multiple queues supported
 
+## Install
+
+```shell
+npm install azure-queue-client --save
+```
+
 ## Sample
 
 ```javascript
