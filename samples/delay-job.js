@@ -5,7 +5,7 @@ var qStorageSecret      = '<<YOURACCOUNTSECRET>>';
 var qPolling            = 2;
 
 // load the module
-var azureQueueClient = new require('../lib/azure-queue-client.js');
+var azureQueueClient = require('../lib/azure-queue-client.js');
 
 // create the listener
 var queueListener = new azureQueueClient.AzureQueueListener();
