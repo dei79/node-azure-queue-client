@@ -1,7 +1,7 @@
 {
   "name": "azure-queue-client",
   "description": "An azure queue client for node.js which allows to consume jobs",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "author": "Dirk Eisenberg",
   "main": "./lib/azure-queue-client.js",
   "dependencies": {
