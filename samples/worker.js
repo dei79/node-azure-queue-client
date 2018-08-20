@@ -17,7 +17,7 @@ worker.onInitialize(function(config) {
 
     // this sample puts just one singel job into the queue so that the worker has
     // something todo
-    var queue = new azureQueueClient.AzureQueue(config.qName, config.qStorageAccount, config.qStorageSecret);
+    var queue = new azureQueueClient.AzureQueue(config.qName, config.qStorageAccount, config.qStorageSecret, config.qStorageEndpointSuffix);
     queue.sendMessage('DEMO', {});
 
     // return the updated config or a promise
